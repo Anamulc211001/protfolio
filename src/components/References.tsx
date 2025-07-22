@@ -39,9 +39,9 @@ export default function References() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Professional <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">References</span>
+            Professional <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">References</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto mb-4"></div>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Trusted professionals who can speak to my work ethic and capabilities
           </p>
@@ -70,16 +70,16 @@ export default function References() {
 
               {/* Name and Title */}
               <div className="mb-6">
-                <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors duration-300">
+                <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors duration-300">
                   {reference.name}
                 </h3>
                 <div className="space-y-2">
                   <div className="flex items-center text-gray-200">
-                    <Briefcase className="w-4 h-4 mr-3 text-cyan-400" />
+                    <Briefcase className="w-4 h-4 mr-3 text-purple-400" />
                     <span className="font-medium">{reference.title}</span>
                   </div>
                   <div className="flex items-start text-gray-200">
-                    <GraduationCap className="w-4 h-4 mr-3 text-cyan-400 mt-0.5" />
+                    <GraduationCap className="w-4 h-4 mr-3 text-purple-400 mt-0.5" />
                     <div>
                       <div>{reference.department}</div>
                       <div className="text-sm text-gray-300 mt-1">{reference.institution}</div>
@@ -91,20 +91,20 @@ export default function References() {
               {/* Contact Information */}
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-gray-200">
-                  <Mail className="w-4 h-4 mr-3 text-cyan-400" />
+                  <Mail className="w-4 h-4 mr-3 text-purple-400" />
                   <a 
                     href={`mailto:${reference.email}`}
-                    className="hover:text-cyan-400 transition-colors duration-200"
+                    className="hover:text-purple-400 transition-colors duration-200"
                   >
                     {reference.email}
                   </a>
                 </div>
                 {reference.phone && (
                   <div className="flex items-center text-gray-200">
-                    <Phone className="w-4 h-4 mr-3 text-cyan-400" />
+                    <Phone className="w-4 h-4 mr-3 text-purple-400" />
                     <a 
                       href={`tel:${reference.phone}`}
-                      className="hover:text-cyan-400 transition-colors duration-200"
+                      className="hover:text-purple-400 transition-colors duration-200"
                     >
                       {reference.phone}
                     </a>
@@ -115,7 +115,7 @@ export default function References() {
               {/* Relationship */}
               <div className="border-t border-white/10 pt-4">
                 <div className="flex items-center text-gray-300">
-                  <User className="w-4 h-4 mr-3 text-cyan-400" />
+                  <User className="w-4 h-4 mr-3 text-purple-400" />
                   <span className="text-sm font-medium">{reference.relationship}</span>
                 </div>
               </div>
@@ -124,16 +124,16 @@ export default function References() {
         </div>
 
         {/* Reference Note */}
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-purple-500 to-blue-600 rounded-2xl p-8 text-white text-center">
           <div className="max-w-3xl mx-auto">
             <User className="w-12 h-12 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">Professional References</h3>
-            <p className="text-cyan-100 mb-6 leading-relaxed">
+            <p className="text-purple-100 mb-6 leading-relaxed">
               These distinguished professionals have worked closely with me and can provide detailed insights 
               into my technical capabilities, work ethic, and professional character. They are available to 
               discuss my qualifications and contributions upon request.
             </p>
-            <div className="text-sm text-cyan-200">
+            <div className="text-sm text-purple-200">
               References available upon request for serious inquiries
             </div>
           </div>
@@ -142,15 +142,15 @@ export default function References() {
         {/* Reference Stats */}
         <div className="mt-16 grid md:grid-cols-3 gap-8 text-center">
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">2</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">2</div>
             <div className="text-gray-300">Professional References</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">1</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">1</div>
             <div className="text-gray-300">Academic Supervisor</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">100%</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">100%</div>
             <div className="text-gray-300">Recommendation Rate</div>
           </div>
         </div>

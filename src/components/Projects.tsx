@@ -156,9 +156,9 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Projects</span>
+            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">Projects</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto mb-4"></div>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             A comprehensive collection of academic and personal projects showcasing technical expertise
           </p>
@@ -186,7 +186,7 @@ export default function Projects() {
                     <IconComponent className={`w-6 h-6 ${getIconColor(project.category)}`} />
                   </div>
                   <div className="text-right">
-                    <span className="px-3 py-1 bg-gradient-to-r from-cyan-500/20 to-purple-600/20 backdrop-blur-sm text-cyan-300 text-xs rounded-full border border-white/20">
+                    <span className="px-3 py-1 bg-gradient-to-r from-purple-500/20 to-blue-600/20 backdrop-blur-sm text-purple-300 text-xs rounded-full border border-white/20">
                       {project.category}
                     </span>
                     <div className="text-gray-400 text-xs mt-1">{project.type}</div>
@@ -194,7 +194,7 @@ export default function Projects() {
                 </div>
 
                 {/* Project Content */}
-                <h3 className="text-lg font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300 line-clamp-2">
+                <h3 className="text-lg font-bold text-white mb-3 group-hover:text-purple-400 transition-colors duration-300 line-clamp-2">
                   {project.title}
                 </h3>
                 
@@ -219,23 +219,23 @@ export default function Projects() {
         </div>
 
         {/* Project Stats */}
-        <div className="mt-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-8 text-white">
+        <div className="mt-16 bg-gradient-to-r from-purple-500 to-blue-600 rounded-2xl p-8 text-white">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">15+</div>
-              <div className="text-cyan-100">Total Projects</div>
+              <div className="text-purple-100">Total Projects</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">8</div>
-              <div className="text-cyan-100">Technology Categories</div>
+              <div className="text-purple-100">Technology Categories</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">1</div>
-              <div className="text-cyan-100">Thesis Project</div>
+              <div className="text-purple-100">Thesis Project</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">100%</div>
-              <div className="text-cyan-100">Completion Rate</div>
+              <div className="text-purple-100">Completion Rate</div>
             </div>
           </div>
         </div>

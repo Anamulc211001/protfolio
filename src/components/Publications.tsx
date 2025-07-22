@@ -70,9 +70,9 @@ export default function Publications() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Research <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Publications</span>
+            Research <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">Publications</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto mb-4"></div>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Academic contributions and research work in AI/ML, networking, and public health
           </p>
@@ -113,23 +113,23 @@ export default function Publications() {
 
                 {/* Publication Details */}
                 <div className="lg:col-span-2">
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300 leading-tight">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors duration-300 leading-tight">
                     {pub.title}
                   </h3>
                   
                   <div className="space-y-2 mb-4">
                     <div className="flex items-center text-gray-200">
-                      <Users className="w-4 h-4 mr-2 text-cyan-400" />
+                      <Users className="w-4 h-4 mr-2 text-purple-400" />
                       <span className="text-sm">{pub.authors}</span>
                     </div>
                     
                     <div className="flex items-center text-gray-200">
-                      <BookOpen className="w-4 h-4 mr-2 text-cyan-400" />
+                      <BookOpen className="w-4 h-4 mr-2 text-purple-400" />
                       <span className="text-sm">{pub.venue}</span>
                     </div>
                     
                     <div className="flex items-center text-gray-200">
-                      <Calendar className="w-4 h-4 mr-2 text-cyan-400" />
+                      <Calendar className="w-4 h-4 mr-2 text-purple-400" />
                       <span className="text-sm">
                         {pub.month && `${pub.month} `}{pub.year}
                         {pub.volume && `, ${pub.volume}`}
@@ -138,14 +138,14 @@ export default function Publications() {
 
                     {pub.paperId && (
                       <div className="flex items-center text-gray-200">
-                        <FileText className="w-4 h-4 mr-2 text-cyan-400" />
+                        <FileText className="w-4 h-4 mr-2 text-purple-400" />
                         <span className="text-sm">{pub.paperId}</span>
                       </div>
                     )}
 
                     {pub.doi && (
                       <div className="flex items-center text-gray-200">
-                        <Award className="w-4 h-4 mr-2 text-cyan-400" />
+                        <Award className="w-4 h-4 mr-2 text-purple-400" />
                         <span className="text-sm">DOI: {pub.doi}</span>
                       </div>
                     )}
@@ -174,7 +174,7 @@ export default function Publications() {
                         href={pub.researchGate}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center space-x-2 bg-gradient-to-r from-cyan-500/80 to-blue-600/80 backdrop-blur-sm hover:from-cyan-500 hover:to-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-300 text-sm border border-white/20 hover:border-white/30"
+                        className="flex items-center space-x-2 bg-gradient-to-r from-purple-500/80 to-blue-600/80 backdrop-blur-sm hover:from-purple-500 hover:to-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-300 text-sm border border-white/20 hover:border-white/30"
                       >
                         <ExternalLink className="w-4 h-4" />
                         <span>ResearchGate</span>
@@ -191,7 +191,7 @@ export default function Publications() {
                 {/* Publication Type & Year */}
                 <div className="hidden lg:block lg:col-span-1 text-right">
                   <div className="space-y-3">
-                    <div className="text-2xl font-bold text-cyan-400">
+                    <div className="text-2xl font-bold text-purple-400">
                       {pub.year}
                     </div>
                     <div className="text-gray-300 font-medium">
@@ -205,10 +205,10 @@ export default function Publications() {
         </div>
 
         {/* Research Profile Link */}
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-purple-500 to-blue-600 rounded-2xl p-8 text-white text-center">
           <BookOpen className="w-12 h-12 mx-auto mb-4" />
           <h3 className="text-2xl font-bold mb-4">Research Profile</h3>
-          <p className="text-cyan-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-purple-100 mb-6 max-w-2xl mx-auto">
             Explore my complete research portfolio and connect with me on academic platforms
           </p>
           <a
@@ -225,19 +225,19 @@ export default function Publications() {
         {/* Publication Stats */}
         <div className="mt-16 grid md:grid-cols-4 gap-8 text-center">
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">3</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">3</div>
             <div className="text-gray-300">Total Publications</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">1</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">1</div>
             <div className="text-gray-300">Published Papers</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">3</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">3</div>
             <div className="text-gray-300">Research Areas</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">2025</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">2025</div>
             <div className="text-gray-300">Latest Research</div>
           </div>
         </div>

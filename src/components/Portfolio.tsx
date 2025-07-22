@@ -87,9 +87,9 @@ export default function Portfolio() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Portfolio</span>
+            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">Portfolio</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto mb-4"></div>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             A showcase of my recent work, combining user-centered design with technical excellence
           </p>
@@ -120,7 +120,7 @@ export default function Portfolio() {
 
               {/* Project Content */}
               <div className="p-6 backdrop-blur-sm">
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors duration-300">
                   {project.title}
                 </h3>
                 
@@ -140,7 +140,7 @@ export default function Portfolio() {
                       {project.tools.map((tool, toolIndex) => (
                         <span
                           key={toolIndex}
-                          className="px-3 py-1 bg-white/10 backdrop-blur-sm text-cyan-300 text-sm rounded-full border border-white/20 hover:bg-white/20 transition-colors duration-200"
+                          className="px-3 py-1 bg-white/10 backdrop-blur-sm text-purple-300 text-sm rounded-full border border-white/20 hover:bg-white/20 transition-colors duration-200"
                         >
                           {tool}
                         </span>
@@ -156,11 +156,11 @@ export default function Portfolio() {
 
                 {/* Action Buttons */}
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 bg-gradient-to-r from-cyan-500/80 to-blue-600/80 backdrop-blur-sm hover:from-cyan-500 hover:to-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-300 text-sm border border-white/20 hover:border-white/30">
+                  <button className="flex items-center space-x-2 bg-gradient-to-r from-purple-500/80 to-blue-600/80 backdrop-blur-sm hover:from-purple-500 hover:to-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-300 text-sm border border-white/20 hover:border-white/30">
                     <ExternalLink className="w-4 h-4" />
                     <span>View Case Study</span>
                   </button>
-                  <button className="flex items-center space-x-2 border border-white/20 hover:border-cyan-400/50 bg-white/5 backdrop-blur-sm text-gray-200 hover:text-cyan-400 hover:bg-white/10 px-4 py-2 rounded-lg transition-all duration-300 text-sm">
+                  <button className="flex items-center space-x-2 border border-white/20 hover:border-purple-400/50 bg-white/5 backdrop-blur-sm text-gray-200 hover:text-purple-400 hover:bg-white/10 px-4 py-2 rounded-lg transition-all duration-300 text-sm">
                     <Github className="w-4 h-4" />
                     <span>Code</span>
                   </button>
@@ -172,7 +172,7 @@ export default function Portfolio() {
 
         {/* View More Button */}
         <div className="text-center mt-12">
-          <button className="group inline-flex items-center space-x-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
+          <button className="group inline-flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-blue-600 hover:from-purple-600 hover:to-blue-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
             <span className="font-semibold">View All Projects</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>

@@ -102,9 +102,9 @@ export default function Skills() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Skills</span>
+            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">Skills</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto mb-4"></div>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             A comprehensive skill set spanning design, development, and user experience
           </p>
@@ -128,7 +128,7 @@ export default function Skills() {
               >
                 <div className="flex items-center mb-6">
                   <div className="p-3 bg-white/10 backdrop-blur-sm rounded-lg mr-4 group-hover:scale-110 transition-transform duration-300 border border-white/20">
-                    <IconComponent className="w-6 h-6 text-cyan-400" />
+                    <IconComponent className="w-6 h-6 text-purple-400" />
                   </div>
                   <h3 className="text-xl font-semibold text-white">
                     {category.title}
@@ -142,13 +142,13 @@ export default function Skills() {
                         <span className="text-gray-200 font-medium">
                           {skill.name}
                         </span>
-                        <span className="text-cyan-400 font-semibold">
+                        <span className="text-purple-400 font-semibold">
                           {skill.level}%
                         </span>
                       </div>
                       <div className="w-full bg-gray-700 rounded-full h-2">
                         <div
-                          className="bg-gradient-to-r from-cyan-400 to-blue-500 h-2 rounded-full transition-all duration-1000 ease-out shadow-lg"
+                          className="bg-gradient-to-r from-purple-400 to-blue-500 h-2 rounded-full transition-all duration-1000 ease-out shadow-lg"
                           style={{ width: `${skill.level}%` }}
                         ></div>
                       </div>
@@ -161,23 +161,23 @@ export default function Skills() {
         </div>
 
         {/* Additional Skills Overview */}
-        <div className="mt-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-8 text-white">
+        <div className="mt-16 bg-gradient-to-r from-purple-500 to-blue-600 rounded-2xl p-8 text-white">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">5+</div>
-              <div className="text-cyan-100">Design Tools Mastered</div>
+              <div className="text-purple-100">Design Tools Mastered</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">10+</div>
-              <div className="text-cyan-100">Programming Languages</div>
+              <div className="text-purple-100">Programming Languages</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">50+</div>
-              <div className="text-cyan-100">Projects Completed</div>
+              <div className="text-purple-100">Projects Completed</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">100%</div>
-              <div className="text-cyan-100">Client Satisfaction</div>
+              <div className="text-purple-100">Client Satisfaction</div>
             </div>
           </div>
         </div>

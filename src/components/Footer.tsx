@@ -13,20 +13,20 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="text-2xl font-bold mb-4">
-              Md Anamul<span className="text-cyan-400">.</span>
+              Md Anamul<span className="text-purple-400">.</span>
             </div>
             <p className="text-gray-300 mb-4">
               UI/UX Designer & Computer Science Engineer passionate about creating 
               meaningful digital experiences.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
                 LinkedIn
               </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
                 GitHub
               </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
                 Dribbble
               </a>
             </div>

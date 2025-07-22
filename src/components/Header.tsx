@@ -45,7 +45,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-200 font-medium"
+                className="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium"
               >
                 {item}
               </button>
@@ -62,7 +62,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
             </button>
             <button className="flex items-center space-x-2 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-200">
             </button>
-            <button className="flex items-center space-x-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200">
+            <button className="flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-blue-600 hover:from-purple-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200">
               <Download className="w-4 h-4" />
               <span>Resume</span>
             </button>
@@ -74,7 +74,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
             className="md:hidden p-2 rounded-lg bg-gray-800 text-gray-300"
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          Md Anamul<span className="text-purple-400">.</span>
         </div>
 
         {/* Mobile Navigation */}
@@ -85,7 +85,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
-                  className="text-left text-gray-300 hover:text-cyan-400 transition-colors duration-200 font-medium"
+                  className="text-left text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium"
                 >
                   {item}
                 </button>
@@ -99,7 +99,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
                 </button>
                 <button className="flex items-center space-x-2 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-200">
                 </button>
-                <button className="flex items-center space-x-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200">
+                <button className="flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-blue-600 hover:from-purple-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200">
                   <Download className="w-4 h-4" />
                   <span>Resume</span>
                 </button>

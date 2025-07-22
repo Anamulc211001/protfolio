@@ -69,9 +69,9 @@ export default function Education() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Education</span>
+            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">Education</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto mb-4"></div>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Academic foundation that shaped my technical expertise and design thinking
           </p>
@@ -113,7 +113,7 @@ export default function Education() {
 
                 {/* Institution & Degree */}
                 <div className="lg:col-span-2">
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors duration-300">
                     {edu.institution}
                   </h3>
                   <p className="text-gray-200 font-medium mb-3">
@@ -131,11 +131,11 @@ export default function Education() {
                   {/* Period & Location for mobile */}
                   <div className="lg:hidden space-y-2">
                     <div className="flex items-center text-gray-300">
-                      <Calendar className="w-4 h-4 mr-2 text-cyan-400" />
+                      <Calendar className="w-4 h-4 mr-2 text-purple-400" />
                       <span className="text-sm">{edu.period}</span>
                     </div>
                     <div className="flex items-center text-gray-300">
-                      <MapPin className="w-4 h-4 mr-2 text-cyan-400" />
+                      <MapPin className="w-4 h-4 mr-2 text-purple-400" />
                       <span className="text-sm">{edu.location}</span>
                     </div>
                   </div>
@@ -145,11 +145,11 @@ export default function Education() {
                 <div className="hidden lg:block lg:col-span-1 text-right">
                   <div className="space-y-3">
                     <div className="flex items-center justify-end text-gray-300">
-                      <Calendar className="w-4 h-4 mr-2 text-cyan-400" />
+                      <Calendar className="w-4 h-4 mr-2 text-purple-400" />
                       <span className="text-sm font-medium">{edu.period}</span>
                     </div>
                     <div className="flex items-center justify-end text-gray-300">
-                      <MapPin className="w-4 h-4 mr-2 text-cyan-400" />
+                      <MapPin className="w-4 h-4 mr-2 text-purple-400" />
                       <span className="text-sm">{edu.location}</span>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ export default function Education() {
         {/* Academic Achievements Summary */}
         <div 
           ref={(el) => itemRefs.current[education.length] = el}
-          className={`mt-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-8 text-white transition-all duration-700 transform ${
+          className={`mt-16 bg-gradient-to-r from-purple-500 to-blue-600 rounded-2xl p-8 text-white transition-all duration-700 transform ${
             visibleItems.includes(education.length) 
               ? 'translate-y-0 opacity-100' 
               : 'translate-y-8 opacity-0'
@@ -174,24 +174,24 @@ export default function Education() {
           <div className="text-center mb-8">
             <GraduationCap className="w-12 h-12 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-2">Academic Excellence</h3>
-            <p className="text-cyan-100">Consistent high performance throughout my educational journey</p>
+            <p className="text-purple-100">Consistent high performance throughout my educational journey</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold mb-2">3.625</div>
-              <div className="text-cyan-100">University CGPA</div>
-              <div className="text-sm text-cyan-200 mt-1">out of 4.00</div>
+              <div className="text-purple-100">University CGPA</div>
+              <div className="text-sm text-purple-200 mt-1">out of 4.00</div>
             </div>
             <div>
               <div className="text-3xl font-bold mb-2">4.33</div>
-              <div className="text-cyan-100">HSC GPA</div>
-              <div className="text-sm text-cyan-200 mt-1">out of 5.00</div>
+              <div className="text-purple-100">HSC GPA</div>
+              <div className="text-sm text-purple-200 mt-1">out of 5.00</div>
             </div>
             <div>
               <div className="text-3xl font-bold mb-2">5.00</div>
-              <div className="text-cyan-100">SSC GPA</div>
-              <div className="text-sm text-cyan-200 mt-1">Perfect Score</div>
+              <div className="text-purple-100">SSC GPA</div>
+              <div className="text-sm text-purple-200 mt-1">Perfect Score</div>
             </div>
           </div>
         </div>

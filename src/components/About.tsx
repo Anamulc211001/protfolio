@@ -46,9 +46,9 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Me</span>
+            About <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">Me</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto"></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -63,7 +63,7 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-cyan-400 rounded-full opacity-80 blur-sm"></div>
+            <div className="absolute -top-4 -right-4 w-20 h-20 bg-purple-400 rounded-full opacity-80 blur-sm"></div>
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-purple-500 rounded-full opacity-80 blur-sm"></div>
           </div>
 
@@ -81,11 +81,11 @@ export default function About() {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-6 py-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">50+</div>
+                <div className="text-3xl font-bold text-purple-400 mb-2">50+</div>
                 <div className="text-gray-400">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">3+</div>
+                <div className="text-3xl font-bold text-purple-400 mb-2">3+</div>
                 <div className="text-gray-400">Years Experience</div>
               </div>
             </div>
@@ -111,14 +111,14 @@ export default function About() {
               >
                 <div className="flex items-center mb-4">
                   <div className="p-3 bg-white/10 backdrop-blur-sm rounded-lg mr-4 group-hover:scale-110 transition-transform duration-300 border border-white/20">
-                    <IconComponent className="w-6 h-6 text-cyan-400" />
+                    <IconComponent className="w-6 h-6 text-purple-400" />
                   </div>
                   <h3 className="font-semibold text-white">{skill.category}</h3>
                 </div>
                 <ul className="space-y-2">
                   {skill.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="text-gray-200 text-sm flex items-center">
-                      <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
                       {item}
                     </li>
                   ))}

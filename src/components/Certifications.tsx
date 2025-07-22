@@ -157,9 +157,9 @@ export default function Certifications() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Certifications & <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Training</span>
+            Certifications & <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">Training</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto mb-4"></div>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Continuous learning and professional development through certified programs
           </p>
@@ -233,7 +233,7 @@ export default function Certifications() {
                   </div>
                 </div>
                 
-                <h4 className="font-semibold text-white mb-2 text-sm group-hover:text-cyan-400 transition-colors duration-300">
+                <h4 className="font-semibold text-white mb-2 text-sm group-hover:text-purple-400 transition-colors duration-300">
                   {cert.title}
                 </h4>
                 
@@ -241,7 +241,7 @@ export default function Certifications() {
                   {cert.issuer}
                 </p>
                 
-                <div className="text-cyan-400 text-xs">
+                <div className="text-purple-400 text-xs">
                   {cert.date}
                 </div>
               </div>
@@ -250,20 +250,20 @@ export default function Certifications() {
         </div>
 
         {/* Workshops & Seminars */}
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-8 text-white">
+        <div className="bg-gradient-to-r from-purple-500 to-blue-600 rounded-2xl p-8 text-white">
           <div className="text-center mb-8">
             <Users className="w-12 h-12 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-2">Workshops & Seminars</h3>
-            <p className="text-cyan-100">Active participation in professional development events</p>
+            <p className="text-purple-100">Active participation in professional development events</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-6">
             {workshops.map((workshop, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                 <h4 className="font-semibold text-white mb-2">{workshop.title}</h4>
-                <p className="text-cyan-100 text-sm mb-2">{workshop.organizer}</p>
+                <p className="text-purple-100 text-sm mb-2">{workshop.organizer}</p>
                 <div className="flex items-center justify-between">
-                  <p className="text-cyan-200 text-xs">{workshop.date}</p>
+                  <p className="text-purple-200 text-xs">{workshop.date}</p>
                   {workshop.theme && (
                     <span className="px-2 py-1 bg-white/20 text-xs rounded-full">{workshop.theme}</span>
                   )}
@@ -276,19 +276,19 @@ export default function Certifications() {
         {/* Certification Stats */}
         <div className="mt-16 grid md:grid-cols-4 gap-8 text-center">
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">20+</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">20+</div>
             <div className="text-gray-300">Total Certifications</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">8</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">8</div>
             <div className="text-gray-300">Skill Categories</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">280+</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">280+</div>
             <div className="text-gray-300">Training Hours</div>
           </div>
           <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
-            <div className="text-3xl font-bold text-cyan-400 mb-2">2025</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">2025</div>
             <div className="text-gray-300">Latest Certification</div>
           </div>
         </div>
